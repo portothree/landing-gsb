@@ -14,7 +14,7 @@
     "task": "gulp",
     "start": "cross-env WATCH=true gulp",
     "clean": "cross-env CLEAN=true gulp compile:templates",
-    "do": "cross-env NODE_ENV=production gulp",
+    "build": "cross-env NODE_ENV=production gulp",
     "add": "node ./core/.add",
     "zip": "gulp zip",
     "zip:dev": "cross-env SNAPSHOT=true gulp zip"
