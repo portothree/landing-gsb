@@ -13,7 +13,7 @@ install:
   - npm install
 
 script:
-  - npm run do
+  - npm run build
 
 branches:
   only:
