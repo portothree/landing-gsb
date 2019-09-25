@@ -1,0 +1,16 @@
+{
+    "posts": [
+        {
+            "cover": "vilao.png",
+            "title": "Estudio Musical - Violão"
+        },
+        {
+            "cover": "cavaco.png",
+            "title": "Estudio Musical - Cavaco"
+        },
+        {
+            "cover": "bateria.png",
+            "title": "Estudio Musical - Bateria"
+        }
+    ]
+}

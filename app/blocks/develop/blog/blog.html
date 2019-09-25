@@ -1,0 +1,18 @@
+<section class="blog">
+	<h4 class="blog__title">Your best value proposition</h4>
+	<p class="blog__description">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+		veniam
+	</p>
+	
+    <div class="blog__posts">
+		@@for (var i = 0; i < global.jsons.blog.posts.length; i++) {
+	
+			@@include( "develop/post/post.html", {
+				"cover": "`+global.jsons.blog.posts[i].cover+`",
+				"title": "`+global.jsons.blog.posts[i].title+`"
+			})
+		}
+	</div>
+</section>
