@@ -1,0 +1,15 @@
+.footer__site-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+
+    span {
+        font-size: 15px;
+
+        &:nth-child(1) {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+}

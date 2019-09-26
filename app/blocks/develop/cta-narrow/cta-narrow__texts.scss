@@ -1,0 +1,12 @@
+.cta-narrow__texts {
+	display: flex;
+	flex-direction: column;
+
+	span {
+		font-size: 35px;
+
+		&:nth-child(1) {
+			font-weight: bold;
+		}
+	}
+}
